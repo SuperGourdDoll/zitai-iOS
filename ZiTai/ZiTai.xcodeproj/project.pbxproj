@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620CA3A91D4FA5FA0031D85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3A81D4FA5FA0031D85B /* AppDelegate.swift */; };
+		620CA3AB1D4FA5FA0031D85B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3AA1D4FA5FA0031D85B /* ViewController.swift */; };
+		620CA3AE1D4FA5FA0031D85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3AC1D4FA5FA0031D85B /* Main.storyboard */; };
+		620CA3B01D4FA5FA0031D85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3AF1D4FA5FA0031D85B /* Assets.xcassets */; };
+		620CA3B31D4FA5FA0031D85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3B11D4FA5FA0031D85B /* LaunchScreen.storyboard */; };
+		620CA3BE1D4FA5FA0031D85B /* ZiTaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3BD1D4FA5FA0031D85B /* ZiTaiTests.swift */; };
+		620CA3C91D4FA5FA0031D85B /* ZiTaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3C81D4FA5FA0031D85B /* ZiTaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		620CA3BA1D4FA5FA0031D85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 620CA39D1D4FA5FA0031D85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620CA3A41D4FA5FA0031D85B;
+			remoteInfo = ZiTai;
+		};
+		620CA3C51D4FA5FA0031D85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 620CA39D1D4FA5FA0031D85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620CA3A41D4FA5FA0031D85B;
+			remoteInfo = ZiTai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		620CA3A51D4FA5FA0031D85B /* ZiTai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZiTai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		620CA3A81D4FA5FA0031D85B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		620CA3AA1D4FA5FA0031D85B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		620CA3AD1D4FA5FA0031D85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		620CA3AF1D4FA5FA0031D85B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		620CA3B21D4FA5FA0031D85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		620CA3B41D4FA5FA0031D85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620CA3B91D4FA5FA0031D85B /* ZiTaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZiTaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		620CA3BD1D4FA5FA0031D85B /* ZiTaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZiTaiTests.swift; sourceTree = "<group>"; };
+		620CA3BF1D4FA5FA0031D85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620CA3C41D4FA5FA0031D85B /* ZiTaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZiTaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		620CA3C81D4FA5FA0031D85B /* ZiTaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZiTaiUITests.swift; sourceTree = "<group>"; };
+		620CA3CA1D4FA5FA0031D85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		620CA3A21D4FA5FA0031D85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620CA3B61D4FA5FA0031D85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620CA3C11D4FA5FA0031D85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		620CA39C1D4FA5FA0031D85B = {
+			isa = PBXGroup;
+			children = (
+				620CA3A71D4FA5FA0031D85B /* ZiTai */,
+				620CA3BC1D4FA5FA0031D85B /* ZiTaiTests */,
+				620CA3C71D4FA5FA0031D85B /* ZiTaiUITests */,
+				620CA3A61D4FA5FA0031D85B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		620CA3A61D4FA5FA0031D85B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3A51D4FA5FA0031D85B /* ZiTai.app */,
+				620CA3B91D4FA5FA0031D85B /* ZiTaiTests.xctest */,
+				620CA3C41D4FA5FA0031D85B /* ZiTaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		620CA3A71D4FA5FA0031D85B /* ZiTai */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3A81D4FA5FA0031D85B /* AppDelegate.swift */,
+				620CA3AA1D4FA5FA0031D85B /* ViewController.swift */,
+				620CA3AC1D4FA5FA0031D85B /* Main.storyboard */,
+				620CA3AF1D4FA5FA0031D85B /* Assets.xcassets */,
+				620CA3B11D4FA5FA0031D85B /* LaunchScreen.storyboard */,
+				620CA3B41D4FA5FA0031D85B /* Info.plist */,
+			);
+			path = ZiTai;
+			sourceTree = "<group>";
+		};
+		620CA3BC1D4FA5FA0031D85B /* ZiTaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3BD1D4FA5FA0031D85B /* ZiTaiTests.swift */,
+				620CA3BF1D4FA5FA0031D85B /* Info.plist */,
+			);
+			path = ZiTaiTests;
+			sourceTree = "<group>";
+		};
+		620CA3C71D4FA5FA0031D85B /* ZiTaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3C81D4FA5FA0031D85B /* ZiTaiUITests.swift */,
+				620CA3CA1D4FA5FA0031D85B /* Info.plist */,
+			);
+			path = ZiTaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		620CA3A41D4FA5FA0031D85B /* ZiTai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620CA3CD1D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTai" */;
+			buildPhases = (
+				620CA3A11D4FA5FA0031D85B /* Sources */,
+				620CA3A21D4FA5FA0031D85B /* Frameworks */,
+				620CA3A31D4FA5FA0031D85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZiTai;
+			productName = ZiTai;
+			productReference = 620CA3A51D4FA5FA0031D85B /* ZiTai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		620CA3B81D4FA5FA0031D85B /* ZiTaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620CA3D01D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTaiTests" */;
+			buildPhases = (
+				620CA3B51D4FA5FA0031D85B /* Sources */,
+				620CA3B61D4FA5FA0031D85B /* Frameworks */,
+				620CA3B71D4FA5FA0031D85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620CA3BB1D4FA5FA0031D85B /* PBXTargetDependency */,
+			);
+			name = ZiTaiTests;
+			productName = ZiTaiTests;
+			productReference = 620CA3B91D4FA5FA0031D85B /* ZiTaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		620CA3C31D4FA5FA0031D85B /* ZiTaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620CA3D31D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTaiUITests" */;
+			buildPhases = (
+				620CA3C01D4FA5FA0031D85B /* Sources */,
+				620CA3C11D4FA5FA0031D85B /* Frameworks */,
+				620CA3C21D4FA5FA0031D85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620CA3C61D4FA5FA0031D85B /* PBXTargetDependency */,
+			);
+			name = ZiTaiUITests;
+			productName = ZiTaiUITests;
+			productReference = 620CA3C41D4FA5FA0031D85B /* ZiTaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		620CA39D1D4FA5FA0031D85B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sgd;
+				TargetAttributes = {
+					620CA3A41D4FA5FA0031D85B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K8P73CWMCK;
+					};
+					620CA3B81D4FA5FA0031D85B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 620CA3A41D4FA5FA0031D85B;
+					};
+					620CA3C31D4FA5FA0031D85B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 620CA3A41D4FA5FA0031D85B;
+					};
+				};
+			};
+			buildConfigurationList = 620CA3A01D4FA5FA0031D85B /* Build configuration list for PBXProject "ZiTai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 620CA39C1D4FA5FA0031D85B;
+			productRefGroup = 620CA3A61D4FA5FA0031D85B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				620CA3A41D4FA5FA0031D85B /* ZiTai */,
+				620CA3B81D4FA5FA0031D85B /* ZiTaiTests */,
+				620CA3C31D4FA5FA0031D85B /* ZiTaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		620CA3A31D4FA5FA0031D85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620CA3B31D4FA5FA0031D85B /* LaunchScreen.storyboard in Resources */,
+				620CA3B01D4FA5FA0031D85B /* Assets.xcassets in Resources */,
+				620CA3AE1D4FA5FA0031D85B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620CA3B71D4FA5FA0031D85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620CA3C21D4FA5FA0031D85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		620CA3A11D4FA5FA0031D85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620CA3AB1D4FA5FA0031D85B /* ViewController.swift in Sources */,
+				620CA3A91D4FA5FA0031D85B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620CA3B51D4FA5FA0031D85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620CA3BE1D4FA5FA0031D85B /* ZiTaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620CA3C01D4FA5FA0031D85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620CA3C91D4FA5FA0031D85B /* ZiTaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		620CA3BB1D4FA5FA0031D85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620CA3A41D4FA5FA0031D85B /* ZiTai */;
+			targetProxy = 620CA3BA1D4FA5FA0031D85B /* PBXContainerItemProxy */;
+		};
+		620CA3C61D4FA5FA0031D85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620CA3A41D4FA5FA0031D85B /* ZiTai */;
+			targetProxy = 620CA3C51D4FA5FA0031D85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		620CA3AC1D4FA5FA0031D85B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620CA3AD1D4FA5FA0031D85B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		620CA3B11D4FA5FA0031D85B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620CA3B21D4FA5FA0031D85B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		620CA3CB1D4FA5FA0031D85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		620CA3CC1D4FA5FA0031D85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		620CA3CE1D4FA5FA0031D85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZiTai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		620CA3CF1D4FA5FA0031D85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZiTai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		620CA3D11D4FA5FA0031D85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZiTaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZiTai.app/ZiTai";
+			};
+			name = Debug;
+		};
+		620CA3D21D4FA5FA0031D85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZiTaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZiTai.app/ZiTai";
+			};
+			name = Release;
+		};
+		620CA3D41D4FA5FA0031D85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZiTaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZiTai;
+			};
+			name = Debug;
+		};
+		620CA3D51D4FA5FA0031D85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZiTaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZiTai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		620CA3A01D4FA5FA0031D85B /* Build configuration list for PBXProject "ZiTai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620CA3CB1D4FA5FA0031D85B /* Debug */,
+				620CA3CC1D4FA5FA0031D85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620CA3CD1D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620CA3CE1D4FA5FA0031D85B /* Debug */,
+				620CA3CF1D4FA5FA0031D85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		620CA3D01D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620CA3D11D4FA5FA0031D85B /* Debug */,
+				620CA3D21D4FA5FA0031D85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		620CA3D31D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620CA3D41D4FA5FA0031D85B /* Debug */,
+				620CA3D51D4FA5FA0031D85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 620CA39D1D4FA5FA0031D85B /* Project object */;
+}
