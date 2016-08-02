@@ -1,0 +1,6 @@
+framework module Pods_ZiTai {
+  umbrella header "Pods-ZiTai-umbrella.h"
+
+  export *
+  module * { export * }
+}

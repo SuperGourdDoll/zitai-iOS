@@ -15,10 +15,51 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        ///检测版本
+        detectVersion()
+        
+        ///引导页
+        showLeadPage()
+        
+        ///主界面
+        showMainView()
+        
         return true
     }
 
+    func detectVersion() {
+        
+    }
+    
+    func showLeadPage() {
+        
+    }
+    
+    private func showMainView() {
+        
+        SlideMenuOptions.contentViewScale = 1
+        SlideMenuOptions.leftViewWidth = appW - 80
+        
+        let leftVC = LeftViewController()
+        let todayVC = TodayViewController()
+        let mainVC = BaseNavigationViewController(rootViewController: todayVC)
+        
+        let slideMenuController = SGDSlideMenuController(mainViewController: mainVC,
+                                                         leftMenuViewController: leftVC)
+        slideMenuController.automaticallyAdjustsScrollViewInsets = true
+        slideMenuController.delegate = todayVC
+        self.window?.backgroundColor = UIColor.whiteColor()
+        self.window?.rootViewController = slideMenuController
+        self.window?.makeKeyAndVisible()
+
+    }
+    
+    
+    
+    
+    
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

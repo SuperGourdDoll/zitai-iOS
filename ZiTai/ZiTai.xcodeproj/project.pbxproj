@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004D4593206FDB7BDCF790AA /* Pods_ZiTai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E7AE2F29F606815569A737 /* Pods_ZiTai.framework */; };
 		620CA3A91D4FA5FA0031D85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3A81D4FA5FA0031D85B /* AppDelegate.swift */; };
-		620CA3AB1D4FA5FA0031D85B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3AA1D4FA5FA0031D85B /* ViewController.swift */; };
 		620CA3AE1D4FA5FA0031D85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3AC1D4FA5FA0031D85B /* Main.storyboard */; };
 		620CA3B01D4FA5FA0031D85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3AF1D4FA5FA0031D85B /* Assets.xcassets */; };
 		620CA3B31D4FA5FA0031D85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620CA3B11D4FA5FA0031D85B /* LaunchScreen.storyboard */; };
 		620CA3BE1D4FA5FA0031D85B /* ZiTaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3BD1D4FA5FA0031D85B /* ZiTaiTests.swift */; };
 		620CA3C91D4FA5FA0031D85B /* ZiTaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3C81D4FA5FA0031D85B /* ZiTaiUITests.swift */; };
+		620CA3DD1D4FAE7F0031D85B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3DC1D4FAE7F0031D85B /* String+Extension.swift */; };
+		620CA3DF1D4FAEC40031D85B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3DE1D4FAEC40031D85B /* UIImage+Extension.swift */; };
+		620CA3E11D4FAEF00031D85B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3E01D4FAEF00031D85B /* UIView+Extension.swift */; };
+		620CA3E61D50419C0031D85B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3E51D50419C0031D85B /* Theme.swift */; };
+		620CA3E81D50424E0031D85B /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3E71D50424E0031D85B /* SlideMenuController.swift */; };
+		620CA3EB1D50430C0031D85B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3EA1D50430C0031D85B /* BaseViewController.swift */; };
+		620CA3ED1D5045A90031D85B /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3EC1D5045A90031D85B /* BaseNavigationViewController.swift */; };
+		620CA3EF1D5049E00031D85B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3EE1D5049E00031D85B /* UIColor+Extension.swift */; };
+		620CA3F31D505F4B0031D85B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3F21D505F4B0031D85B /* HomeViewController.swift */; };
+		620CA3F51D5061720031D85B /* SGDSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3F41D5061720031D85B /* SGDSlideMenuController.swift */; };
+		620CA3FF1D5062620031D85B /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA3FE1D5062620031D85B /* UIApplication+Extension.swift */; };
+		620CA40A1D50729D0031D85B /* CollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA4011D50729D0031D85B /* CollectViewController.swift */; };
+		620CA40C1D50729D0031D85B /* TheSeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA4051D50729D0031D85B /* TheSeeViewController.swift */; };
+		620CA40D1D50729D0031D85B /* TheVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA4071D50729D0031D85B /* TheVoiceViewController.swift */; };
+		620CA40E1D50729D0031D85B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA4091D50729D0031D85B /* TodayViewController.swift */; };
+		620CA41B1D5073330031D85B /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA41A1D5073330031D85B /* LeftViewController.swift */; };
+		620CA4201D507D0C0031D85B /* LeftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA41F1D507D0C0031D85B /* LeftModel.swift */; };
+		620CA4221D507E140031D85B /* LeftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA4211D507E140031D85B /* LeftViewModel.swift */; };
+		620CA4241D508CB90031D85B /* LeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620CA4231D508CB90031D85B /* LeftTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +55,6 @@
 /* Begin PBXFileReference section */
 		620CA3A51D4FA5FA0031D85B /* ZiTai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZiTai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		620CA3A81D4FA5FA0031D85B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		620CA3AA1D4FA5FA0031D85B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		620CA3AD1D4FA5FA0031D85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		620CA3AF1D4FA5FA0031D85B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		620CA3B21D4FA5FA0031D85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,29 @@
 		620CA3C41D4FA5FA0031D85B /* ZiTaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZiTaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		620CA3C81D4FA5FA0031D85B /* ZiTaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZiTaiUITests.swift; sourceTree = "<group>"; };
 		620CA3CA1D4FA5FA0031D85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620CA3DC1D4FAE7F0031D85B /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		620CA3DE1D4FAEC40031D85B /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		620CA3E01D4FAEF00031D85B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		620CA3E51D50419C0031D85B /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		620CA3E71D50424E0031D85B /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		620CA3EA1D50430C0031D85B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		620CA3EC1D5045A90031D85B /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		620CA3EE1D5049E00031D85B /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		620CA3F21D505F4B0031D85B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		620CA3F41D5061720031D85B /* SGDSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGDSlideMenuController.swift; sourceTree = "<group>"; };
+		620CA3FE1D5062620031D85B /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		620CA4011D50729D0031D85B /* CollectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectViewController.swift; sourceTree = "<group>"; };
+		620CA4051D50729D0031D85B /* TheSeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheSeeViewController.swift; sourceTree = "<group>"; };
+		620CA4071D50729D0031D85B /* TheVoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheVoiceViewController.swift; sourceTree = "<group>"; };
+		620CA4091D50729D0031D85B /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		620CA41A1D5073330031D85B /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		620CA41C1D5078450031D85B /* ZiTai-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZiTai-Bridging-Header.h"; sourceTree = "<group>"; };
+		620CA41F1D507D0C0031D85B /* LeftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftModel.swift; sourceTree = "<group>"; };
+		620CA4211D507E140031D85B /* LeftViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewModel.swift; sourceTree = "<group>"; };
+		620CA4231D508CB90031D85B /* LeftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableViewCell.swift; sourceTree = "<group>"; };
+		B0E7AE2F29F606815569A737 /* Pods_ZiTai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZiTai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF6CCE82365A33A6A1DB832 /* Pods-ZiTai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZiTai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZiTai/Pods-ZiTai.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE7B131025F880601608753 /* Pods-ZiTai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZiTai.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZiTai/Pods-ZiTai.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004D4593206FDB7BDCF790AA /* Pods_ZiTai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09EBB4C8F131A1E219FA3043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAF6CCE82365A33A6A1DB832 /* Pods-ZiTai.debug.xcconfig */,
+				EFE7B131025F880601608753 /* Pods-ZiTai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		176724B88E392D788D0E2157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E7AE2F29F606815569A737 /* Pods_ZiTai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		620CA39C1D4FA5FA0031D85B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +140,8 @@
 				620CA3BC1D4FA5FA0031D85B /* ZiTaiTests */,
 				620CA3C71D4FA5FA0031D85B /* ZiTaiUITests */,
 				620CA3A61D4FA5FA0031D85B /* Products */,
+				09EBB4C8F131A1E219FA3043 /* Pods */,
+				176724B88E392D788D0E2157 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				620CA3A81D4FA5FA0031D85B /* AppDelegate.swift */,
-				620CA3AA1D4FA5FA0031D85B /* ViewController.swift */,
-				620CA3AC1D4FA5FA0031D85B /* Main.storyboard */,
-				620CA3AF1D4FA5FA0031D85B /* Assets.xcassets */,
-				620CA3B11D4FA5FA0031D85B /* LaunchScreen.storyboard */,
-				620CA3B41D4FA5FA0031D85B /* Info.plist */,
+				620CA3D61D4FAE360031D85B /* Class */,
+				620CA3DB1D4FAE450031D85B /* SupportingFile */,
 			);
 			path = ZiTai;
 			sourceTree = "<group>";
@@ -125,6 +183,228 @@
 			path = ZiTaiUITests;
 			sourceTree = "<group>";
 		};
+		620CA3D61D4FAE360031D85B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3D71D4FAE360031D85B /* Application */,
+				620CA3D81D4FAE360031D85B /* Extension */,
+				620CA3D91D4FAE360031D85B /* Utils */,
+				620CA3DA1D4FAE360031D85B /* Vender */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		620CA3D71D4FAE360031D85B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3E91D5042F30031D85B /* Public */,
+				620CA3E21D5035190031D85B /* Model */,
+				620CA3E31D5035190031D85B /* View */,
+				620CA3E41D5035190031D85B /* ViewModel */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		620CA3D81D4FAE360031D85B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3DC1D4FAE7F0031D85B /* String+Extension.swift */,
+				620CA3DE1D4FAEC40031D85B /* UIImage+Extension.swift */,
+				620CA3E01D4FAEF00031D85B /* UIView+Extension.swift */,
+				620CA3EE1D5049E00031D85B /* UIColor+Extension.swift */,
+				620CA3FE1D5062620031D85B /* UIApplication+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		620CA3D91D4FAE360031D85B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3E51D50419C0031D85B /* Theme.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		620CA3DA1D4FAE360031D85B /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3E71D50424E0031D85B /* SlideMenuController.swift */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		620CA3DB1D4FAE450031D85B /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3AC1D4FA5FA0031D85B /* Main.storyboard */,
+				620CA3AF1D4FA5FA0031D85B /* Assets.xcassets */,
+				620CA3B11D4FA5FA0031D85B /* LaunchScreen.storyboard */,
+				620CA3B41D4FA5FA0031D85B /* Info.plist */,
+				620CA41C1D5078450031D85B /* ZiTai-Bridging-Header.h */,
+			);
+			name = SupportingFile;
+			sourceTree = "<group>";
+		};
+		620CA3E21D5035190031D85B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				620CA4101D5072FC0031D85B /* Left */,
+				620CA4131D5072FC0031D85B /* Today */,
+				620CA4111D5072FC0031D85B /* TheSee */,
+				620CA4121D5072FC0031D85B /* TheVoice */,
+				620CA40F1D5072FC0031D85B /* Collect */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		620CA3E31D5035190031D85B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3F21D505F4B0031D85B /* HomeViewController.swift */,
+				620CA4191D5073330031D85B /* Left */,
+				620CA4081D50729D0031D85B /* Today */,
+				620CA4041D50729D0031D85B /* TheSee */,
+				620CA4061D50729D0031D85B /* TheVoice */,
+				620CA4001D50729D0031D85B /* Collect */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		620CA3E41D5035190031D85B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				620CA4151D5073080031D85B /* Left */,
+				620CA4181D5073080031D85B /* Today */,
+				620CA4161D5073080031D85B /* TheSee */,
+				620CA4171D5073080031D85B /* TheVoice */,
+				620CA4141D5073080031D85B /* Collect */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		620CA3E91D5042F30031D85B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				620CA3EA1D50430C0031D85B /* BaseViewController.swift */,
+				620CA3EC1D5045A90031D85B /* BaseNavigationViewController.swift */,
+				620CA3F41D5061720031D85B /* SGDSlideMenuController.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		620CA4001D50729D0031D85B /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				620CA4011D50729D0031D85B /* CollectViewController.swift */,
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		620CA4041D50729D0031D85B /* TheSee */ = {
+			isa = PBXGroup;
+			children = (
+				620CA4051D50729D0031D85B /* TheSeeViewController.swift */,
+			);
+			path = TheSee;
+			sourceTree = "<group>";
+		};
+		620CA4061D50729D0031D85B /* TheVoice */ = {
+			isa = PBXGroup;
+			children = (
+				620CA4071D50729D0031D85B /* TheVoiceViewController.swift */,
+			);
+			path = TheVoice;
+			sourceTree = "<group>";
+		};
+		620CA4081D50729D0031D85B /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				620CA4091D50729D0031D85B /* TodayViewController.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		620CA40F1D5072FC0031D85B /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		620CA4101D5072FC0031D85B /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				620CA41F1D507D0C0031D85B /* LeftModel.swift */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
+		620CA4111D5072FC0031D85B /* TheSee */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TheSee;
+			sourceTree = "<group>";
+		};
+		620CA4121D5072FC0031D85B /* TheVoice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TheVoice;
+			sourceTree = "<group>";
+		};
+		620CA4131D5072FC0031D85B /* Today */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		620CA4141D5073080031D85B /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		620CA4151D5073080031D85B /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				620CA4211D507E140031D85B /* LeftViewModel.swift */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
+		620CA4161D5073080031D85B /* TheSee */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TheSee;
+			sourceTree = "<group>";
+		};
+		620CA4171D5073080031D85B /* TheVoice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TheVoice;
+			sourceTree = "<group>";
+		};
+		620CA4181D5073080031D85B /* Today */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		620CA4191D5073330031D85B /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				620CA41A1D5073330031D85B /* LeftViewController.swift */,
+				620CA4231D508CB90031D85B /* LeftTableViewCell.swift */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620CA3CD1D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTai" */;
 			buildPhases = (
+				E4C30214238044D4E4DE8D5F /* 📦 Check Pods Manifest.lock */,
 				620CA3A11D4FA5FA0031D85B /* Sources */,
 				620CA3A21D4FA5FA0031D85B /* Frameworks */,
 				620CA3A31D4FA5FA0031D85B /* Resources */,
+				2DA7F2B7E70F1936D5D90C01 /* 📦 Embed Pods Frameworks */,
+				53E46905DEBE683F9980C524 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,12 +535,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DA7F2B7E70F1936D5D90C01 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZiTai/Pods-ZiTai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E46905DEBE683F9980C524 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZiTai/Pods-ZiTai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C30214238044D4E4DE8D5F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		620CA3A11D4FA5FA0031D85B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				620CA3AB1D4FA5FA0031D85B /* ViewController.swift in Sources */,
+				620CA3DF1D4FAEC40031D85B /* UIImage+Extension.swift in Sources */,
+				620CA3FF1D5062620031D85B /* UIApplication+Extension.swift in Sources */,
+				620CA3DD1D4FAE7F0031D85B /* String+Extension.swift in Sources */,
+				620CA3E61D50419C0031D85B /* Theme.swift in Sources */,
+				620CA3F51D5061720031D85B /* SGDSlideMenuController.swift in Sources */,
+				620CA40C1D50729D0031D85B /* TheSeeViewController.swift in Sources */,
+				620CA40E1D50729D0031D85B /* TodayViewController.swift in Sources */,
+				620CA3EF1D5049E00031D85B /* UIColor+Extension.swift in Sources */,
+				620CA4201D507D0C0031D85B /* LeftModel.swift in Sources */,
+				620CA3E11D4FAEF00031D85B /* UIView+Extension.swift in Sources */,
+				620CA3E81D50424E0031D85B /* SlideMenuController.swift in Sources */,
+				620CA41B1D5073330031D85B /* LeftViewController.swift in Sources */,
+				620CA3F31D505F4B0031D85B /* HomeViewController.swift in Sources */,
+				620CA3ED1D5045A90031D85B /* BaseNavigationViewController.swift in Sources */,
+				620CA4221D507E140031D85B /* LeftViewModel.swift in Sources */,
+				620CA3EB1D50430C0031D85B /* BaseViewController.swift in Sources */,
+				620CA4241D508CB90031D85B /* LeftTableViewCell.swift in Sources */,
+				620CA40D1D50729D0031D85B /* TheVoiceViewController.swift in Sources */,
+				620CA40A1D50729D0031D85B /* CollectViewController.swift in Sources */,
 				620CA3A91D4FA5FA0031D85B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,8 +747,10 @@
 		};
 		620CA3CE1D4FA5FA0031D85B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF6CCE82365A33A6A1DB832 /* Pods-ZiTai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ZiTai/Info.plist;
@@ -407,13 +758,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZiTai/ZiTai-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		620CA3CF1D4FA5FA0031D85B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE7B131025F880601608753 /* Pods-ZiTai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ZiTai/Info.plist;
@@ -421,6 +776,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgd.zitai.ZiTai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZiTai/ZiTai-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -489,6 +845,7 @@
 				620CA3CF1D4FA5FA0031D85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		620CA3D01D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTaiTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +854,7 @@
 				620CA3D21D4FA5FA0031D85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		620CA3D31D4FA5FA0031D85B /* Build configuration list for PBXNativeTarget "ZiTaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +863,7 @@
 				620CA3D51D4FA5FA0031D85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
