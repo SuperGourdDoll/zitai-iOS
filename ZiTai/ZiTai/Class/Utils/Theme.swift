@@ -24,4 +24,7 @@ struct Theme {
     ///导航文字字体
     static let naviFont = UIFont.systemFontOfSize(19, weight: 0.8)
     
+    
+    ///email font
+    static let emailFont = UIFont.systemFontOfSize(18)
 }

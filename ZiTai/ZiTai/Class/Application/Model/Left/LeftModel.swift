@@ -10,10 +10,12 @@ import Foundation
 
 struct LeftModel {
     
-    let userImg: UIImage  //用户头像
-    let userEmail: String
+    let userImg: UIImage?  //用户头像
+    let userEmail: String?
+    let bkImg: UIImage?
     
-    let itemImg: UIImage
-    let itemTitle: String
+    
+    let itemImg: [UIImage]
+    let itemTitle: [String]
     
 }

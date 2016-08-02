@@ -20,7 +20,7 @@ extension UIImage {
     }
     
     /// 将传入的图片裁剪成带边缘的原型图片
-    class func imageWithClipImage(image: UIImage, borderWidth: CGFloat, borderColor: UIColor) -> UIImage {
+    class func imageWithClipBorder(image: UIImage, borderWidth: CGFloat, borderColor: UIColor) -> UIImage {
         let imageWH = image.size.width
         //        let border = borderWidth
         let ovalWH = imageWH + 2 * borderWidth
@@ -55,20 +55,21 @@ extension UIImage {
         return image
     }
     
-    //    var uncompressedPNGData: NSData      { return UIImagePNGRepresentation(self)!        }
-    //    var highestQualityJPEGNSData: NSData { return UIImageJPEGRepresentation(self, 1.0)!  }
-    //    var highQualityJPEGNSData: NSData    { return UIImageJPEGRepresentation(self, 0.75)! }
-    //    var mediumQualityJPEGNSData: NSData  { return UIImageJPEGRepresentation(self, 0.5)!  }
-    //    var lowQualityJPEGNSData: NSData     { return UIImageJPEGRepresentation(self, 0.25)! }
-    //    var lowestQualityJPEGNSData:NSData   { return UIImageJPEGRepresentation(self, 0.0)!  }
-    func mediumQualityJPEGNSData() -> NSData
-    {
-        return UIImageJPEGRepresentation(self, 0.5)!
-    }
-    func highQualityJPEGNSData() -> NSData
-    {
-        return UIImageJPEGRepresentation(self, 0.75)!
-    }
+        var uncompressedPNGData: NSData      { return UIImagePNGRepresentation(self)!        }
+        var highestQualityJPEGNSData: NSData { return UIImageJPEGRepresentation(self, 1.0)!  }
+        var highQualityJPEGNSData: NSData    { return UIImageJPEGRepresentation(self, 0.75)! }
+        var mediumQualityJPEGNSData: NSData  { return UIImageJPEGRepresentation(self, 0.5)!  }
+        var lowQualityJPEGNSData: NSData     { return UIImageJPEGRepresentation(self, 0.25)! }
+        var lowestQualityJPEGNSData:NSData   { return UIImageJPEGRepresentation(self, 0.0)!  }
+    
+//    func mediumQualityJPEGNSData() -> NSData
+//    {
+//        return UIImageJPEGRepresentation(self, 0.5)!
+//    }
+//    func highQualityJPEGNSData() -> NSData
+//    {
+//        return UIImageJPEGRepresentation(self, 0.75)!
+//    }
     
     
 }

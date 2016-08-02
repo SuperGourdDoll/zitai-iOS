@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func showMainView() {
         
         SlideMenuOptions.contentViewScale = 1
-        SlideMenuOptions.leftViewWidth = appW - 80
+        SlideMenuOptions.leftViewWidth = appW - 60
         
         let leftVC = LeftViewController()
         let todayVC = TodayViewController()
